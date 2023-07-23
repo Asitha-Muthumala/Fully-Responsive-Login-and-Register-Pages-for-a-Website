@@ -1,0 +1,79 @@
+.webregister-page {
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.register-form {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section {
+    min-width: 70%;
+}
+
+.input-section-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input-section-box h2 {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.link-heading {
+    font-weight: 500;
+    font-size: small;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.tac-link {
+    font-weight: 500;
+}
+
+.button-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper-r {
+    min-width: 50%;
+    background: url('../lagoon-bird-2.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media screen and (max-width: 785px) {
+    .image-wrapper-r {
+        display: none;
+    }
+
+    .register-form {
+        min-width: 100%;
+    }
+
+    .login-form-button {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .input-section-box {
+        width: 80%;
+    }
+
+    .login-form-button {
+        width: 100px;
+    }
+}
